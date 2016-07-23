@@ -1,0 +1,31 @@
+{
+  "name": "curtain-down",
+  "version": "1.0.0",
+  "description": "Perform cleanup, when node process exits: close connections, save state, etc…",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "node test.js",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elmigranto/curtain-down.git"
+  },
+  "keywords": [
+    "cleanup",
+    "exit"
+  ],
+  "author": "Alexey Zabrodsky <elmigranto@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elmigranto/curtain-down/issues"
+  },
+  "homepage": "https://github.com/elmigranto/curtain-down#readme",
+  "dependencies": {
+    "debug": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1"
+  }
+}
